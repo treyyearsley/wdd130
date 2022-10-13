@@ -1,4 +1,4 @@
-::content {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -6,6 +6,7 @@ nav a {
     text-align: center;
     color: #749C75;
     text-decoration:none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -13,7 +14,7 @@ nav a {
 #hero-msg h4 {
     text-align: center;
 }
-.button-box {
+#button-box {
     text-align: center;
 }
 main section {
@@ -23,25 +24,35 @@ main section {
     height: 725px;
     background-color: #4C86A8;
 }
-body {
+#body {
     background-color: #749C75;
+    margin: 0;
+    padding: 0;
 }
-header{
+#header{
     background-color: #ECA400;
 }
-nav a:hover {
+#nav a:hover {
     background-color: #4C86A8;
     color: #001011;
 }
 .book{
+    font-size: 18px;
     background-color: #749C75;
     color: #001011;
     text-decoration:none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 .join {
+    font-size: 18px;
     background-color: #FFFFFF;
     color: #749C75;
     text-decoration:none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #ECA400;
@@ -52,23 +63,34 @@ nav a:hover {
     color: #001011;
 }
 .msg {
+    line-height: 1.5em;
     background-color: #749C75;
+    padding: 35px;
+
 }
 footer {
     background-color: #4C84A8;
     color: #001011;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 h4{
     color: #4C86A8;
 }
 .home-title{
+    font-family: 'Roboto', 'Satisfy', sans-serif;
+    font-size: 2em;
     color: #001011;
+    margin-top: 10px;
 }
 .msg h2{
+    font-family: 'Satisfy', 'Roboto', sans-serif;
     color: #4C86A8;
 }
 .msg p{
+    font-size: .8em;
     color: #001011;
+    padding-bottom: 15px;
 }
 footer a{
     color: #FFFFFF;
@@ -82,6 +104,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -92,3 +115,21 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}  
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #000;
+}
+main section img {
+    box-sizing: border-box;
+}
