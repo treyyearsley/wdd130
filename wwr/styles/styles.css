@@ -4,7 +4,7 @@
 }
 nav a {
     text-align: center;
-    color: #749C75;
+    color: #001011;
     text-decoration:none;
     padding: 35px;
 }
@@ -75,7 +75,7 @@ footer {
     margin-top: 200px;
 }
 h4{
-    color: #4C86A8;
+    color: #001011;
 }
 .home-title{
     font-family: 'Roboto', 'Satisfy', sans-serif;
@@ -85,7 +85,7 @@ h4{
 }
 .msg h2{
     font-family: 'Satisfy', 'Roboto', sans-serif;
-    color: #4C86A8;
+    color: #001011;
 }
 .msg p{
     font-size: .8em;
