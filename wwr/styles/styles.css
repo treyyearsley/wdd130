@@ -14,7 +14,7 @@ nav a {
 #hero-msg h4 {
     text-align: center;
 }
-#button-box {
+.button-box {
     text-align: center;
 }
 main section {
@@ -24,15 +24,15 @@ main section {
     height: 725px;
     background-color: #4C86A8;
 }
-#body {
+body {
     background-color: #749C75;
     margin: 0;
     padding: 0;
 }
-#header{
+header{
     background-color: #ECA400;
 }
-#nav a:hover {
+nav a:hover {
     background-color: #4C86A8;
     color: #001011;
 }
