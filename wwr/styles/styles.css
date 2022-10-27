@@ -23,11 +23,13 @@ nav a {
     z-index: -1;
 }
 #hero-msg {
+    color: white;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
 }
 #hero-msg h1 {
+    color: white;
     text-align: center;
 }
 #hero-msg h4 {
@@ -69,7 +71,7 @@ nav a:hover {
 .book{
     font-size: 18px;
     background-color: #749C75;
-    color: #001011;
+    color: white;
     text-decoration:none;
     padding: 15px 30px;
     margin-top: 50px;
