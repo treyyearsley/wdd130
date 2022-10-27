@@ -2,13 +2,15 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav a {
     text-align: center;
     color: #001011;
     text-decoration:none;
     padding: 35px;
-    display: flex;
-    justify-content: space-around;
 }
 #hero {
     display: grid;
@@ -30,6 +32,7 @@ nav a {
 }
 #hero-msg h4 {
     text-align: center;
+    color: white;
 }
 .button-box {
     text-align: center;
@@ -38,7 +41,7 @@ nav a {
 main section {
     text-align: center;
 }
-home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
 }
@@ -93,6 +96,8 @@ nav a:hover {
     line-height: 1.5em;
     background-color: #749C75;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 
 }
@@ -122,8 +127,6 @@ h4{
     font-size: .8em;
     color: #001011;
     padding-bottom: 15px;
-    grid-column: 6/10;
-    grid-row: 6/7;
 }
 footer a{
     color: #FFFFFF;
@@ -152,7 +155,6 @@ h2 {
     margin: 0;
 }
 #logo_link {
-    padding-top: 5px;
     padding-top: 5px;
     justify-self: center;
     align-self: center;
