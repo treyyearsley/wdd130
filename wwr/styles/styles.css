@@ -275,7 +275,7 @@ main section img {
 }
 .blog-msg {
     grid-column: 2/4;
-    grid-row: 2/4; 
+    grid-row: 2/3; 
     font-size: 25px;
     text-align: left;
     padding: 35px;
