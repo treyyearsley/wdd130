@@ -203,6 +203,8 @@ main section img {
 
 .sub-title {
     font-size: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .rivers-title {
     grid-column: 1/2;
