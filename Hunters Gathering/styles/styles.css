@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto+Condensed&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -44,7 +46,7 @@ footer {
 }
 #hero-img{
     width: 100%;
-    max-height: auto;
+    height: auto;
     margin: 0 auto;
     margin-top: 250px;
     border: 25px solid black;
