@@ -302,8 +302,7 @@ font-size: 25px;
         grid-row:7/10 ;
     }
     .treys_buck-title, .bens_bear-title {
-        text-align: center;
-        font-size: 25px;
+        display: none;
     }
     .bens_bear_card-img {
         margin-top: 10px;
