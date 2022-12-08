@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto+Condensed&display=swap');
 
 #content {
-    max-width: 1600px;
+    max-width: auto;
     margin: 0 auto;
 }
 nav {
@@ -148,10 +148,13 @@ body {
     grid-row: 5/6;
 }
 .share-msg {
-    font-size: 30px;
+    font-size: 20px;
     grid-column: 1/8;
     grid-row: 3/5;
     padding-left: 50px;
+}
+.share-msg h1,.share-msg h2, .share-msg h3 {
+font-size: 25px;
 }
 #share_hero-msg{
     padding-right: 25px;
@@ -184,4 +187,48 @@ body {
     border:10px solid #001011;
     box-shadow: 5px 5px 10px #256D1B;
     height: 500px;
+}
+.hunters-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#hunters-msg {
+    grid-column: 5/10;
+    grid-row: 1/10;
+    padding-right: 25px;
+    line-height: 1.5em;
+}
+.bens_bear-card {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.treys_buck-card {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.bens_bear-img {
+    height: 500px;
+    width: 500px;
+    border:10px solid #001011;
+    box-shadow: 5px 5px 10px #256D1B;
+}
+.treys_buck-img {
+    width: 500px;
+    border:10px solid #001011;
+    box-shadow: 5px 5px 10px #256D1B;
+}
+.treys_buck-title {
+    grid-column: 1/4;
+    text-align: center;
+    font-family: 'Freehand', 'Roboto Condensed', sans-serif;
+
+}
+.bens_bear-title {
+    grid-column: 1/4;
+    text-align: center;
+    font-family: 'Freehand', 'Roboto Condensed', sans-serif;
 }
