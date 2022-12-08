@@ -277,6 +277,7 @@ font-size: 25px;
         max-width: 200px;
         max-height: 200px;
         margin-bottom: 15px;
+        margin-left: 50px;
     }
     #hunters-msg {
         font-size: 15px;
@@ -295,8 +296,8 @@ font-size: 25px;
     .treys_bear-card, .treys_bear-img {
         margin-top: 10px;
         margin-bottom: 10px;
-        width: 200px;
-        height: 200px;
+        max-width: 200px;
+        max-height: 200px;
         grid-column: 1/3;
         grid-row:7/10 ;
     }
@@ -335,7 +336,8 @@ font-size: 25px;
         grid-row: 3/7;
         width: 100%;
     }
-    .treys_bear-title{
-        margin: 5px auto;
+    .treys_bear-title, .chases_buck-title {
+        display: none;
     }
+
 }
