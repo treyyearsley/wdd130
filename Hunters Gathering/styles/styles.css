@@ -270,39 +270,25 @@ font-size: 25px;
     .chases_buck-card, .chases_buck-card-img {
         grid-row: 2/4;
         grid-column: 1/4;
+        width: 400px;
+        height: 400px;
     }
     #hunters-msg {
         grid-column: 1/10;
         grid-row: 3/7;
         width: 80%;
     }
-    .bens_bear-card {
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    .treys_buck-card {
+    .treys_buck-card, .treys_buck-card-img {
         grid-column: 1/4;
         grid-row: 7/10;
-        width: 60%;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    .treys_buck-card-img {
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        width: 60%;
-        grid-column: 1/4;
-        grid-row: 7/10;
+        width: 400px;
+        height: 400px;
+        margin: 10px auto;
     }
     .treys_bear-card, .treys_bear_card-img {
         margin: 10px auto;
-        width: 60%;
+        width: 400px;
+        height: 400px;
     }
     .treys_buck-title, .bens_bear-title {
         text-align: center;
@@ -310,7 +296,8 @@ font-size: 25px;
     }
     .bens_bear-card-img {
         margin: 10px auto;
-        width: 60%;
+        width: 400px;
+        height: 400px;
     }
     .treys_bear_card-img, .chases_buck-card-img, .bens_bear-card-img, .treys_buck-card-img, .card-img{
         margin: 10px auto;
@@ -331,11 +318,12 @@ font-size: 25px;
     }
     #demo, .demo_p {
         grid-column: 1/4;
+        grid-row: 7/8;
         text-align: left;
         font-size: 20px;
     }
     .share-msg {
-        font-size: 20px;
+        font-size: 15px;
         grid-column: 1/8;
         grid-row: 4/6;
         padding-left: 10px;
