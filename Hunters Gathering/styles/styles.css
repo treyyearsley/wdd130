@@ -272,10 +272,6 @@ font-size: 25px;
         grid-row: 3/7;
         width: 80%;
     }
-    .treys_bear_card-img {
-        margin: 10px auto;
-        width: 80%;
-    }
     .bens_bear-card {
         margin: 10px auto;
         width: 80%;
@@ -290,7 +286,9 @@ font-size: 25px;
     }
     .treys_bear-card, .treys_bear_card-img {
         margin: 10px auto;
-        width: 80%;
+        width: 700px;
+        height: 700px;
+        
     }
     .treys_buck-title, .bens_bear-title {
         text-align: center;
