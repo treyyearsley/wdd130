@@ -260,7 +260,6 @@ font-size: 25px;
     }
     .share-title, .hunters-title {
         text-align: center;
-        font-family: 'Freehand', 'Roboto Condensed', sans-serif;
         margin-top: 0px;
         font-size: 25px;
         grid-row: 1/2;
