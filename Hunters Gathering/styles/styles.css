@@ -251,6 +251,7 @@ font-size: 25px;
         margin-top: 0;
     }
     .share-title, .hunters-title {
+        text-align: center;
         margin-top: 0;
         font-size: 25px;
         grid-column: 3/5;
@@ -265,11 +266,6 @@ font-size: 25px;
     .treys_bear-card, .chases_buck-card, .bens_bear-card, .treys_buck-card, .treys_bull-card, .kokanee-card {
         margin: 10px auto;
         width: 80%;
-    }
-    .share-title{
-        text-align: center;
-        font-size: 25px;
-        margin-top: 0;
     }
     #hunters-msg {
         grid-column: 1/10;
