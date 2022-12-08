@@ -282,7 +282,7 @@ font-size: 25px;
         font-size: 15px;
         grid-column: 1/10;
         grid-row: 3/7;
-        width: 80%;
+        width: 100%;
     }
     .treys_buck-card, .treys_buck-card-img {
         grid-column: 1/4;
@@ -333,8 +333,7 @@ font-size: 25px;
         font-size: 12.5px;
         grid-column: 1/8;
         grid-row: 3/7;
-        padding-left: 10px;
-        width: 80%;
+        width: 100%;
     }
     .treys_bear-title{
         margin: 5px auto;
