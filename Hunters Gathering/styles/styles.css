@@ -195,6 +195,9 @@ font-size: 25px;
 .hunters-title {
     font-family: 'Freehand', 'Roboto Condensed', sans-serif;
     font-size: 45px;
+    grid-column: 1/10;
+    text-align: center;
+    
 }
 #hunters-msg {
     grid-column: 5/10;
