@@ -192,6 +192,10 @@ font-size: 25px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.hunters-title {
+    font-family: 'Freehand', 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+}
 #hunters-msg {
     grid-column: 5/10;
     grid-row: 1/10;
