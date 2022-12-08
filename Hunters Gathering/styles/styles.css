@@ -332,13 +332,15 @@ font-size: 25px;
         
     }
     #demo, .demo_p {
-        text-align: center;
-        font-size: 25px;
+        grid-column: 1/4;
+        text-align: left;
+        font-size: 20px;
     }
     .share-msg {
         font-size: 20px;
         grid-column: 1/8;
         grid-row: 2/5;
         padding-left: 10px;
+        width: 80%;
     }
 }
