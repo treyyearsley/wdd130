@@ -320,5 +320,9 @@ font-size: 25px;
         border: 25px solid black;
         
     }
+    #demo, .demo_p {
+        text-align: center;
+        font-size: 25px;
+    }
 
 }
