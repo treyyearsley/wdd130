@@ -331,5 +331,6 @@ font-size: 25px;
     }
     .treys_bear-title{
         grid-row: 6/7;
+        margin: 10px auto;
     }
 }
