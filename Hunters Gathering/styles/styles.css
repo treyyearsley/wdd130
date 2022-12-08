@@ -269,6 +269,10 @@ font-size: 25px;
         grid-row: 3/7;
         width: 80%;
     }
+    .treys_bear_card-img {
+        margin: 10px auto;
+        width: 80%;
+    }
     .bens_bear-card {
         grid-column: 1/4;
         grid-row: 1/3;
