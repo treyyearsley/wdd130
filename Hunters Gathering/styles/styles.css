@@ -292,7 +292,8 @@ font-size: 25px;
         margin: 10px auto;
     }
     .treys_bear-card, .treys_bear_card-img {
-        margin: 10px auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 200px;
         height: 200px;
         grid-column: 1/3;
