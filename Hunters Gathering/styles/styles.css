@@ -261,7 +261,7 @@ font-size: 25px;
         margin-top: 25px;
     }
     .treys_bear-card, .chases_buck-card, .bens_bear-card, .treys_buck-card, .treys_bull-card, .kokanee-card {
-        margin: 50px auto;
+        margin: 10px auto;
         width: 80%;
     }
     #hunters-msg {
@@ -280,7 +280,7 @@ font-size: 25px;
         margin: 50px auto;
     }
     .treys_bear_card-img, .chases_buck-card-img, .bens_bear-card-img, .treys_buck-card-img, .card-img{
-        margin: 50px auto;
+        margin: 10px auto;
         width: 80%;
     }
     #hero-box {
