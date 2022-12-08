@@ -284,7 +284,7 @@ font-size: 25px;
         grid-row: 3/7;
         width: 100%;
     }
-    .treys_buck-card, .treys_buck_card-img {
+    .treys_buck-card, .treys_buck-img {
         grid-column: 1/4;
         grid-row: 7/10;
         width: 200px;
@@ -292,7 +292,7 @@ font-size: 25px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .treys_bear-card, .treys_bear_card-img {
+    .treys_bear-card, .treys_bear-img {
         margin-top: 10px;
         margin-bottom: 10px;
         width: 200px;
