@@ -269,6 +269,7 @@ font-size: 25px;
     }
     .chases_buck-card, .chases_buck-card-img {
         grid-row: 2/4;
+        grid-column: 1/4;
     }
     #hunters-msg {
         grid-column: 1/10;
