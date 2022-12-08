@@ -263,12 +263,12 @@ font-size: 25px;
     footer {
         margin-top: 25px;
     }
-    .treys_bear-card, .chases_buck-card, .bens_bear-card, .treys_buck-card, .treys_bull-card, .kokanee-card {
+    .treys_bull-card, .kokanee-card {
         margin: 10px auto;
-        width: 60%;
+        width: 80%;
     }
     .chases_buck-card, .chases_buck-card-img {
-        grid-row: 2/4;
+        grid-row: 2/3;
         grid-column: 1/4;
         width: 400px;
         height: 400px;
@@ -325,7 +325,7 @@ font-size: 25px;
     .share-msg {
         font-size: 15px;
         grid-column: 1/8;
-        grid-row: 4/6;
+        grid-row: 3/5;
         padding-left: 10px;
         width: 80%;
     }
