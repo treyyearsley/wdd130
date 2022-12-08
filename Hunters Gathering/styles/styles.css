@@ -277,7 +277,7 @@ font-size: 25px;
         max-width: 300px;
         max-height: 300px;
         margin-bottom: 15px;
-        margin-left: 50px;
+        margin-left: 25px;
     }
     #hunters-msg {
         font-size: 15px;
@@ -293,7 +293,7 @@ font-size: 25px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .treys_bear-card, .treys_bear-img {
+    .treys_bear-card, .treys_bear_card-img {
         margin-top: 10px;
         margin-bottom: 10px;
         max-width: 300px;
@@ -304,7 +304,7 @@ font-size: 25px;
     .treys_buck-title, .bens_bear-title {
         display: none;
     }
-    .bens_bear_card-img {
+    .bens_bear-card,.bens_bear-img {
         margin-top: 10px;
         margin-bottom: 10px;
         max-width: 300px;
@@ -334,6 +334,7 @@ font-size: 25px;
         grid-column: 1/8;
         grid-row: 3/7;
         width: 100%;
+        margin: 0 auto;
     }
     .treys_bear-title, .chases_buck-title {
         display: none;
