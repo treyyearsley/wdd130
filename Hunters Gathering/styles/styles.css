@@ -277,7 +277,17 @@ font-size: 25px;
     .treys_buck-card {
         grid-column: 1/4;
         grid-row: 8/10;
-        margin: 50px auto;
+        margin: 10px auto;
+    }
+    .treys_buck-card-img {
+        grid-column: 1/4;
+        grid-row: 8/10;
+        margin: 10px auto;
+    }
+    .bens_bear-card-img {
+        grid-column: 1/4;
+        grid-row: 1/3;
+        margin: 10px auto;
     }
     .treys_bear_card-img, .chases_buck-card-img, .bens_bear-card-img, .treys_buck-card-img, .card-img{
         margin: 10px auto;
