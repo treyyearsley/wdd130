@@ -276,17 +276,26 @@ font-size: 25px;
         width: 80%;
     }
     .bens_bear-card {
-        margin: 10px auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         width: 80%;
     }
     .treys_buck-card {
         grid-column: 1/4;
         grid-row: 7/10;
-        margin: 10px auto;
         width: 80%;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .treys_buck-card-img {
-        margin: 10px auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
         width: 80%;
         grid-column: 1/4;
         grid-row: 7/10;
