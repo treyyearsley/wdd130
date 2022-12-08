@@ -328,6 +328,7 @@ font-size: 25px;
         grid-row: 10/11;
         text-align: left;
         font-size: 20px;
+        width: 100%;
     }
     .share-msg {
         font-size: 12.5px;
