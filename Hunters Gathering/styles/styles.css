@@ -282,7 +282,7 @@ font-size: 25px;
     }
     .card-img {
         margin: 10px auto;
-        width: 80%;
+        width: 60%;
     }
     .chases_buck-card, .chases_buck_card-img {
         grid-row: 2/3;
