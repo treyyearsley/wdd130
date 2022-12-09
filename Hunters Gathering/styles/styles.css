@@ -282,7 +282,8 @@ font-size: 25px;
     }
     .treys_bull-card, .kokanee-card {
         margin: 10px auto;
-        width: 80%;
+        max-width: 300px;
+        max-height: 300px;
     }
     .chases_buck-card, .chases_buck_card-img {
         grid-row: 2/3;
@@ -337,9 +338,9 @@ font-size: 25px;
         
     }
     #demo, .demo_p {
-        grid-column: 1/4;
+        grid-column: 1/8;
         grid-row: 10/11;
-        text-align: left;
+        text-align: center;
         font-size: 20px;
         width: 100%;
     }
