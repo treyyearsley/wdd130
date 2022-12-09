@@ -282,8 +282,7 @@ font-size: 25px;
     }
     .treys_bull-card, .kokanee-card {
         margin: 10px auto;
-        max-width: 300px;
-        max-height: 300px;
+        width: 80%;
     }
     .chases_buck-card, .chases_buck_card-img {
         grid-row: 2/3;
